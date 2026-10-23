@@ -22,7 +22,7 @@ Instructions for working with this repository.
 - `CHANGELOG.md` must briefly document all changes, bug fixes, new features, and other relevant updates, with links to the corresponding Issues and Pull Requests.
 - `README.md` is intended for human readers, not agents. Modify it only with the user's explicit permission and instructions.
 
-## 3. Architecture and Code Quality
+## 3. Code Style and Rules
 
 - Keep the code modular, testable, and consistent with the conventions of the chosen programming language.
 - Use simple functions for stateless functionality.
@@ -30,21 +30,19 @@ Instructions for working with this repository.
 - Test the exported public contract of each module rather than its internal implementation details, which may change frequently.
 - Use Dependency Injection to decouple modules and support reuse and independent testing.
 - Maintain a single application entry point that initializes, starts, and coordinates modules in a clear sequence.
-
-## 4. Testing and Dependencies
-
+- Use current documentation and the latest stable, compatible versions of dependencies and libraries.
 - After each task, run the relevant tests and build the project to verify that nothing is broken.
 - Run available linters and formatters as well.
-- Use current documentation and the latest stable, compatible versions of dependencies and libraries.
+- Define all project management commands as `Makefile` targets, including test, build, lint, format, run, and stop. Use these targets instead of ad-hoc commands.
 
-## 5. Safety and Git Rules
+## 4. Safety and Git Rules
 
 - Never store secrets, credentials, passwords, or `.env` files containing secrets in the codebase.
 - Do not delete files or branches unless required by the task and explicitly confirmed by the user.
 - Never push directly to `master` or `main` unless explicitly requested by the user.
 - Never delete or rewrite Git history.
 
-## 6. Project specific rules
+## 5. Project specific rules
 
 None.
 
