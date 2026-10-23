@@ -33,7 +33,7 @@ Instructions for working with this repository.
 - Use current documentation and the latest stable, compatible versions of dependencies and libraries.
 - After each task, run the relevant tests and build the project to verify that nothing is broken.
 - Run available linters and formatters as well.
-- Define all project management commands as `Makefile` targets, including test, build, lint, format, run, and stop. Use these targets instead of ad-hoc commands.
+- Define main project management commands as `Makefile` targets (test, build, run, etc.). Use these targets instead of ad-hoc commands.
 
 ## 4. Safety and Git Rules
 
