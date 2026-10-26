@@ -6,6 +6,8 @@ Instructions for working with this repository.
 
 - Create a plan for every user request that requires project changes. The plan must be tracked as a GitHub Issue.
 - Present the proposed plan to the user and obtain approval before creating the Issue.
+- Use corresponding Labels for each Issue (feature, fix, refactor, etc). 
+- Don't make Issues for changes that not related to code logic (docs, tests, ci, formatting, etc).
 - Implement the approved plan in a separate Git branch and submit a Pull Request (PR) that fulfills the Issue.
 - A plan is considered successfully completed only when the user explicitly confirms it or merges the corresponding PR.
 - If a task is too large or can be divided into independent phases, split it into multiple Issues linked to the main Issue.
@@ -41,6 +43,7 @@ Instructions for working with this repository.
 - Do not delete files or branches unless required by the task and explicitly confirmed by the user.
 - Never push directly to `master` or `main` unless explicitly requested by the user.
 - Never delete or rewrite Git history.
+- Use Conventional Commits spec for writing commit messages.
 
 ## 5. Project specific rules
 
