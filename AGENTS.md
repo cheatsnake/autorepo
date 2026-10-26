@@ -21,7 +21,7 @@ Instructions for working with this repository.
 
 - `PROJECT.md` contains the high-level project description, architecture, and purpose.
 - Update `PROJECT.md` whenever user-facing functionality is added or its behavior changes.
-- `CHANGELOG.md` must briefly document all changes, bug fixes, new features, and other relevant updates, with links to the corresponding Issues and Pull Requests.
+- `CHANGELOG.md` must briefly document history of resolved Issues (added features, bug fixes, and other relevant updates) with links to the corresponding Issues and Pull Requests.
 - `README.md` is intended for human readers, not agents. Modify it only with the user's explicit permission and instructions.
 
 ## 3. Code Style and Rules
@@ -35,7 +35,7 @@ Instructions for working with this repository.
 - Use current documentation and the latest stable, compatible versions of dependencies and libraries.
 - After each task, run the relevant tests and build the project to verify that nothing is broken.
 - Run available linters and formatters as well.
-- Define main project management commands as `Makefile` targets (test, build, run, etc.). Use these targets instead of ad-hoc commands.
+- Define main project management commands as `Makefile` targets (test, build, run, etc). Use these targets instead of ad-hoc commands.
 
 ## 4. Safety and Git Rules
 
